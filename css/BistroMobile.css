@@ -5,12 +5,13 @@ nav {
     box-sizing: border-box;
     padding: 0;
     margin-top: 10px;
+    border-bottom: 2px solid white; /* Add white border at the bottom */
 }
 
 nav ul {
     list-style-type: none;
     display: grid;
-    gap: 10px; /* Adjust as needed */
+    gap: 10px;
     box-sizing: border-box;
     justify-content: space-around;
 }
@@ -21,6 +22,7 @@ nav a {
     padding: 20px 0;
     width: 100%;
     background-color: transparent !important;
+    text-align: left; /* Align text to the left */
 }
 
 body {
@@ -28,6 +30,8 @@ body {
     background-color: #00005D;
     margin: 0;
     box-sizing: border-box;
+    display: flex; /* Added */
+    flex-direction: column; /* Added */
 }
 
 h1 {
@@ -100,8 +104,8 @@ footer {
 }
 
 #nav-article-container {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
 }
 
 #article-float-container {
