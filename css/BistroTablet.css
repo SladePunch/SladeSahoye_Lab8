@@ -1,0 +1,122 @@
+body {
+    font-family: Times New Roman, Arial, sans-serif;
+    background-color: #00005D;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#wrapper {
+    background-color: #b3c7e6;
+    color: #000066;
+    width: 80%;
+    margin: auto;
+    min-width: 940px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    background-color: #869dc7;
+    color: #00005D;
+    font-size: 150%;
+    padding: 10px 10px 10px 155px;
+    background-image: url(/images/Birdman\ Sountrack\ Cover.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+header h2 {
+    margin-top: 0;
+    padding-right: 20px;
+    font-size: .80em;
+    font-style: italic;
+    text-align: right;
+    color: #00005D;
+}
+
+article header {
+    background-color: #FFFFFF;
+    background-image: none;
+    font-size: 100%;
+    padding-left: 0;
+    height: auto;
+}
+
+#content {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    overflow: auto;
+    display: grid;
+    grid-row: 3;
+    grid-column: 1;
+}
+
+h2 {
+    color: #869dc7;
+    font-family: arial, sans-serif;
+    margin: 5px;
+}
+
+footer {
+    font-size: 70%;
+    text-align: center;
+    padding: 10px;
+    background-color: #869dc7;
+    clear: both;
+    grid-row: 4;
+    grid-column: 1;
+}
+
+#nav-article-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+nav {
+    width: 100%;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    color: white;
+    background-color: #FFC4BD;
+    border-bottom: 1px solid #ffffff;
+    margin: 0 10px;
+}
+
+#article-float-container {
+    display: flex;
+    flex-grow: 1;
+}
+
+article {
+    flex-grow: 1;
+}
+
+#floatright {
+    margin-left: 20px;
+}
